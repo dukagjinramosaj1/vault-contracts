@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./deploy",
+    "./typechain-types"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./hardhat.config.ts"
+  ]
+}
